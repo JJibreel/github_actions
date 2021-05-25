@@ -13,7 +13,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      repo:
+      test:
         description: 'Repo to override'     
         required: true
         default: 'environments'
@@ -32,7 +32,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "Repo to override: ${{github.event.inputs.repo}} "
+        run: echo "Repo to override: ${{github.event.inputs.test}} "
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
