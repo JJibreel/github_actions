@@ -1,18 +1,26 @@
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_mycloud"></a> [mycloud](#requirement\_mycloud) | ~> 1.0.4 |
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_consul"></a> [consul](#module\_consul) | github.com/hashicorp/example |  |
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [aws_instance.web](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance) | resource |
 
 ## Inputs
 
