@@ -15,3 +15,9 @@ resource "aws_instance" "web" {
 module "consul" {
   source = "github.com/hashicorp/example"
 }
+
+
+resource "test_multi_directory2" "test2" {
+  ami           = "ami-a1b2c3d4"
+  instance_type = "t2.micro"
+}

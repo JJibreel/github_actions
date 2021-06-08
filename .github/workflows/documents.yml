@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  docs:
+  Generate_Terraform_Docs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
