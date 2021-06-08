@@ -40,3 +40,8 @@ output "vpc_id" {
   description = "The Id of the VPC"
   value       = var.vpc_id
 }
+
+output "pc_id" {
+  description = "The Id of the VPC"
+  value       = var.pc_id
+}
