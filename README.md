@@ -25,7 +25,6 @@
 | Name | Type |
 |------|------|
 | [aws_instance.web](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance) | resource |
-| [aws_instance2.web](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance2) | resource |
 | [test_multi_directory2.test2](https://registry.terraform.io/providers/hashicorp/test/latest/docs/resources/multi_directory2) | resource |
 
 ## Inputs
