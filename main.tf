@@ -12,15 +12,21 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 }
 
-resource "aws_instance2" "web" {
-  ami           = "ami-a1b2c3d4"
-  instance_type = "t2.micro"
+/*
+module "consul" {
+  source = "github.com/hashicorp/example"
 }
+*/
 
 module "consul" {
   source = "github.com/hashicorp/example"
 }
 
+
+resource "test_multi_directory2" "test2" {
+  ami           = "ami-a1b2c3d4"
+  instance_type = "t2.micro"
+}
 
 resource "test_multi_directory2" "test2" {
   ami           = "ami-a1b2c3d4"
