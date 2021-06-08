@@ -26,6 +26,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_extra_tags"></a> [extra\_tags](#input\_extra\_tags) | Additional tags | `map(string)` | `{}` | no |
+| <a name="input_instance_count"></a> [instance\_count](#input\_instance\_count) | Number of instances to create | `number` | `1` | no |
 | <a name="input_test_multi_directory"></a> [test\_multi\_directory](#input\_test\_multi\_directory) | n/a | `bool` | `true` | no |
 
 ## Outputs

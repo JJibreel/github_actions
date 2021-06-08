@@ -46,6 +46,7 @@ A test repo for sprint work shinanigans
 
 | Name | Description |
 |------|-------------|
+| <a name="output_pc_id"></a> [pc\_id](#output\_pc\_id) | The Id of the VPC |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | The Id of the VPC |
 
 <!--- END_TF_DOCS --->
