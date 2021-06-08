@@ -3,7 +3,6 @@
 ## Description
 A test repo for sprint work shinanigans 
 
-<!--- BEGIN_TF_DOCS --->
 ## Requirements
 
 | Name | Version |
@@ -48,6 +47,4 @@ A test repo for sprint work shinanigans
 |------|-------------|
 | <a name="output_pc_id"></a> [pc\_id](#output\_pc\_id) | The Id of the VPC |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | The Id of the VPC |
-
-<!--- END_TF_DOCS --->
 
