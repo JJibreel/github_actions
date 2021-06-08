@@ -4,7 +4,9 @@ No requirements.
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_test"></a> [test](#provider\_test) | n/a |
 
 ## Modules
 
@@ -12,7 +14,9 @@ No modules.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [test_multi_directory2.test2](https://registry.terraform.io/providers/hashicorp/test/latest/docs/resources/multi_directory2) | resource |
 
 ## Inputs
 
